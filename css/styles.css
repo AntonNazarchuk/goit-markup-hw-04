@@ -157,12 +157,14 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: var(--second-text-color);
 }
 
 .icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: var(--second-text-color);
 }
 
 .contact-link:hover,
@@ -402,9 +404,6 @@ body {
   padding-bottom: 94px;
 }
 
-.client-item {
-}
-
 .client-list {
   display: flex;
 }
@@ -412,9 +411,6 @@ body {
 .client-list {
   display: flex;
   justify-content: space-between;
-}
-
-.client-item {
 }
 
 .client-link {
@@ -438,11 +434,21 @@ body {
   color: var(--second-btn-color);
 }
 
-.client-item:hover .client-icon,
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: var(--second-btn-color);
+}
+
+/* .client-icon:hover,
+.client-icon:focus {
+  color: var(--second-btn-color);
+} */
+
+/* .client-item:hover .client-icon,
 .client-item:focus .client-icon {
   color: var(--second-btn-color);
   fill: var(--second-btn-color);
-}
+} */
 /* index.html */
 
 /*----------------- portfolio------------------ */
