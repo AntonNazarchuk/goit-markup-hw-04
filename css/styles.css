@@ -587,10 +587,12 @@ body {
   color: var(--footer-color-contact2);
 }
 
-.addres-link-1:hover {
+.addres-link-1:hover,
+.addres-link-1:focus {
   color: var(--header-text-color-third);
 }
-.addres-link-2:hover {
+.addres-link-2:hover,
+.addres-link-2:focus {
   color: var(--header-text-color-third);
 }
 
